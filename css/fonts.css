@@ -1,0 +1,80 @@
+@font-face
+{
+    font-family: 'Material Icons';
+    src: url(../fonts/Materialize.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+.material-icons
+{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+    font-family: 'Modelica-Black';
+    src:  url('../fonts/modelica/black/Modelica-Black.eot');
+    src:  url('../fonts/modelica/black/Modelica-Black.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/modelica/black/Modelica-Black.woff2') format('woff2'),
+          url('../fonts/modelica/black/Modelica-Black.woff') format('woff'),
+          url('../fonts/modelica/black/Modelica-Black.ttf') format('truetype'),
+          url('../fonts/modelica/black/Modelica-Black.svg#BwModelicaSS01-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Modelica-Bold';
+    src:  url('../fonts/modelica/bold/Modelica-ExtraBold.eot');
+    src:  url('../fonts/modelica/bold/Modelica-ExtraBold.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/modelica/bold/Modelica-ExtraBold.woff2') format('woff2'),
+          url('../fonts/modelica/bold/Modelica-ExtraBold.woff') format('woff'),
+          url('../fonts/modelica/bold/Modelica-ExtraBold.ttf') format('truetype'),
+          url('../fonts/modelica/bold/Modelica-ExtraBold.svg#BwModelicaSS01-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+.modelica-black {
+  font-family: 'Modelica-Black';
+}
+.modelica-bold {
+  font-family: 'Modelica-Bold';
+}
